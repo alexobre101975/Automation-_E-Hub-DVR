@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 4.1.3 (Python 3.10.1 on win32)" generated="20221005 21:23:42.630" rpa="false" schemaversion="2">
-<suite id="s1" name="Window DVR" source="C:\Users\Alejandro\Desktop\Entertainment_DVR\Window_DVR.robot">
+<robot generator="Robot 4.1.3 (Python 3.10.1 on win32)" generated="20221012 15:26:49.863" rpa="false" schemaversion="2">
+<suite id="s1" name="NGG-TC-66-70 DVR" source="C:\Users\Alejandro\Desktop\Entertainment_DVR\NGG-TC-66-70 DVR.robot">
 <kw name="Open App" library="Keywords" type="SETUP">
 <kw name="Open Application" library="AppiumLibrary">
 <arg>${url}</arg>
@@ -18,9 +18,9 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 | *Option*            | *Man.* | *Description*     |
 | remote_url          | Yes    | Appium server url |
 | alias               | no     | alias             |</doc>
-<status status="PASS" starttime="20221005 21:23:42.807" endtime="20221005 21:23:57.822"/>
+<status status="PASS" starttime="20221012 15:26:50.053" endtime="20221012 15:27:05.033"/>
 </kw>
-<status status="PASS" starttime="20221005 21:23:42.807" endtime="20221005 21:23:57.822"/>
+<status status="PASS" starttime="20221012 15:26:50.052" endtime="20221012 15:27:05.034"/>
 </kw>
 <test id="s1-t1" name="Test Tab Entertainment Tile VCR">
 <kw name="Open App" library="Keywords">
@@ -40,168 +40,168 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 | *Option*            | *Man.* | *Description*     |
 | remote_url          | Yes    | Appium server url |
 | alias               | no     | alias             |</doc>
-<status status="PASS" starttime="20221005 21:23:57.823" endtime="20221005 21:24:10.914"/>
+<status status="PASS" starttime="20221012 15:27:05.035" endtime="20221012 15:27:19.181"/>
 </kw>
-<status status="PASS" starttime="20221005 21:23:57.823" endtime="20221005 21:24:10.914"/>
+<status status="PASS" starttime="20221012 15:27:05.034" endtime="20221012 15:27:19.181"/>
 </kw>
-<kw name="Enter Window DVR" library="Keywords">
+<kw name="Home DVR" library="Keywords">
 <kw name="Press Keycode" library="AppiumLibrary">
 <arg>22</arg>
 <doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20221005 21:24:10.915" endtime="20221005 21:24:11.016"/>
+<status status="PASS" starttime="20221012 15:27:19.181" endtime="20221012 15:27:20.568"/>
 </kw>
 <kw name="Press Keycode" library="AppiumLibrary">
 <arg>22</arg>
 <doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20221005 21:24:11.016" endtime="20221005 21:24:11.612"/>
+<status status="PASS" starttime="20221012 15:27:20.569" endtime="20221012 15:27:22.037"/>
 </kw>
 <kw name="Press Keycode" library="AppiumLibrary">
 <arg>23</arg>
 <doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20221005 21:24:11.612" endtime="20221005 21:24:12.292"/>
+<status status="PASS" starttime="20221012 15:27:22.037" endtime="20221012 15:27:22.712"/>
 </kw>
 <kw name="Wait Until Element Is Visible" library="AppiumLibrary">
 <arg>id=com.sentrics.engage360:id/tvFilterSeated</arg>
 <doc>Waits until element specified with `locator` is visible.</doc>
-<status status="PASS" starttime="20221005 21:24:12.292" endtime="20221005 21:24:15.609"/>
+<status status="PASS" starttime="20221012 15:27:22.712" endtime="20221012 15:27:25.925"/>
 </kw>
-<status status="PASS" starttime="20221005 21:24:10.915" endtime="20221005 21:24:15.610"/>
+<status status="PASS" starttime="20221012 15:27:19.181" endtime="20221012 15:27:25.925"/>
 </kw>
-<kw name="Enter Window See All Recording" library="Keywords">
+<kw name="Enter See All Recording Section DVR" library="Keywords">
 <kw name="Press Keycode" library="AppiumLibrary">
 <arg>23</arg>
 <doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20221005 21:24:15.610" endtime="20221005 21:24:15.669"/>
+<status status="PASS" starttime="20221012 15:27:25.926" endtime="20221012 15:27:25.996"/>
 </kw>
 <kw name="Wait Until Element Is Visible" library="AppiumLibrary">
 <arg>id=com.sentrics.engage360:id/tvSorting</arg>
 <doc>Waits until element specified with `locator` is visible.</doc>
-<status status="PASS" starttime="20221005 21:24:15.669" endtime="20221005 21:24:16.888"/>
+<status status="PASS" starttime="20221012 15:27:25.996" endtime="20221012 15:27:27.164"/>
 </kw>
 <kw name="Press Keycode" library="AppiumLibrary">
 <arg>4</arg>
 <doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20221005 21:24:16.889" endtime="20221005 21:24:17.009"/>
+<status status="PASS" starttime="20221012 15:27:27.164" endtime="20221012 15:27:27.277"/>
 </kw>
 <kw name="Wait Until Element Is Visible" library="AppiumLibrary">
 <arg>id=com.sentrics.engage360:id/tvFilterSeated</arg>
 <doc>Waits until element specified with `locator` is visible.</doc>
-<status status="PASS" starttime="20221005 21:24:17.009" endtime="20221005 21:24:17.875"/>
+<status status="PASS" starttime="20221012 15:27:27.277" endtime="20221012 15:27:28.103"/>
 </kw>
-<status status="PASS" starttime="20221005 21:24:15.610" endtime="20221005 21:24:17.875"/>
+<status status="PASS" starttime="20221012 15:27:25.925" endtime="20221012 15:27:28.103"/>
 </kw>
-<kw name="Enter Window Recording Schedule" library="Keywords">
+<kw name="Enter Recording Schedule Section DVR" library="Keywords">
 <kw name="Press Keycode" library="AppiumLibrary">
 <arg>22</arg>
 <doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20221005 21:24:17.876" endtime="20221005 21:24:17.959"/>
+<status status="PASS" starttime="20221012 15:27:28.104" endtime="20221012 15:27:28.185"/>
 </kw>
 <kw name="Wait Until Element Is Visible" library="AppiumLibrary">
 <arg>id=com.sentrics.engage360:id/tvOptionRecordingSchedule</arg>
 <doc>Waits until element specified with `locator` is visible.</doc>
-<status status="PASS" starttime="20221005 21:24:17.960" endtime="20221005 21:24:18.608"/>
+<status status="PASS" starttime="20221012 15:27:28.185" endtime="20221012 15:27:28.813"/>
 </kw>
 <kw name="Press Keycode" library="AppiumLibrary">
 <arg>23</arg>
 <doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20221005 21:24:18.608" endtime="20221005 21:24:18.675"/>
+<status status="PASS" starttime="20221012 15:27:28.813" endtime="20221012 15:27:28.854"/>
 </kw>
 <kw name="Wait Until Element Is Visible" library="AppiumLibrary">
 <arg>id=com.sentrics.engage360:id/recording_schedule_calendar_title</arg>
 <doc>Waits until element specified with `locator` is visible.</doc>
-<status status="PASS" starttime="20221005 21:24:18.676" endtime="20221005 21:24:19.735"/>
+<status status="PASS" starttime="20221012 15:27:28.854" endtime="20221012 15:27:29.835"/>
 </kw>
 <kw name="Press Keycode" library="AppiumLibrary">
 <arg>4</arg>
 <doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20221005 21:24:19.736" endtime="20221005 21:24:19.848"/>
+<status status="PASS" starttime="20221012 15:27:29.835" endtime="20221012 15:27:29.969"/>
 </kw>
 <kw name="Wait Until Element Is Visible" library="AppiumLibrary">
 <arg>id=com.sentrics.engage360:id/tvOptionRecordingSchedule</arg>
 <doc>Waits until element specified with `locator` is visible.</doc>
-<status status="PASS" starttime="20221005 21:24:19.848" endtime="20221005 21:24:20.637"/>
+<status status="PASS" starttime="20221012 15:27:29.969" endtime="20221012 15:27:30.742"/>
 </kw>
-<status status="PASS" starttime="20221005 21:24:17.876" endtime="20221005 21:24:20.637"/>
+<status status="PASS" starttime="20221012 15:27:28.103" endtime="20221012 15:27:30.742"/>
 </kw>
-<kw name="Enter Window Recording Priority" library="Keywords">
+<kw name="Enter Recording Priority Section DVR" library="Keywords">
 <kw name="Press Keycode" library="AppiumLibrary">
 <arg>22</arg>
 <doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20221005 21:24:20.639" endtime="20221005 21:24:20.767"/>
+<status status="PASS" starttime="20221012 15:27:30.742" endtime="20221012 15:27:30.806"/>
 </kw>
 <kw name="Wait Until Element Is Visible" library="AppiumLibrary">
 <arg>id=com.sentrics.engage360:id/tvOptionSeriesPriority</arg>
 <doc>Waits until element specified with `locator` is visible.</doc>
-<status status="PASS" starttime="20221005 21:24:20.767" endtime="20221005 21:24:21.367"/>
+<status status="PASS" starttime="20221012 15:27:30.806" endtime="20221012 15:27:31.444"/>
 </kw>
 <kw name="Press Keycode" library="AppiumLibrary">
 <arg>23</arg>
 <doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20221005 21:24:21.368" endtime="20221005 21:24:21.447"/>
+<status status="PASS" starttime="20221012 15:27:31.444" endtime="20221012 15:27:31.522"/>
 </kw>
 <kw name="Wait Until Element Is Visible" library="AppiumLibrary">
 <arg>id=com.sentrics.engage360:id/series_priority_title</arg>
 <doc>Waits until element specified with `locator` is visible.</doc>
-<status status="PASS" starttime="20221005 21:24:21.447" endtime="20221005 21:24:22.366"/>
+<status status="PASS" starttime="20221012 15:27:31.523" endtime="20221012 15:27:32.535"/>
 </kw>
 <kw name="Press Keycode" library="AppiumLibrary">
 <arg>4</arg>
 <doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20221005 21:24:22.366" endtime="20221005 21:24:22.493"/>
+<status status="PASS" starttime="20221012 15:27:32.535" endtime="20221012 15:27:32.664"/>
 </kw>
 <kw name="Wait Until Element Is Visible" library="AppiumLibrary">
 <arg>id=com.sentrics.engage360:id/tvOptionSeriesPriority</arg>
 <doc>Waits until element specified with `locator` is visible.</doc>
-<status status="PASS" starttime="20221005 21:24:22.493" endtime="20221005 21:24:23.307"/>
+<status status="PASS" starttime="20221012 15:27:32.665" endtime="20221012 15:27:33.451"/>
 </kw>
-<status status="PASS" starttime="20221005 21:24:20.638" endtime="20221005 21:24:23.307"/>
+<status status="PASS" starttime="20221012 15:27:30.742" endtime="20221012 15:27:33.451"/>
 </kw>
-<kw name="Enter Window DVR Storage" library="Keywords">
+<kw name="Enter DVR Storage Section DVR" library="Keywords">
 <kw name="Press Keycode" library="AppiumLibrary">
 <arg>22</arg>
 <doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20221005 21:24:23.308" endtime="20221005 21:24:23.395"/>
+<status status="PASS" starttime="20221012 15:27:33.452" endtime="20221012 15:27:33.546"/>
 </kw>
 <kw name="Wait Until Element Is Visible" library="AppiumLibrary">
 <arg>id=com.sentrics.engage360:id/tvOptionDVRStorage</arg>
 <doc>Waits until element specified with `locator` is visible.</doc>
-<status status="PASS" starttime="20221005 21:24:23.395" endtime="20221005 21:24:24.016"/>
+<status status="PASS" starttime="20221012 15:27:33.547" endtime="20221012 15:27:34.208"/>
 </kw>
 <kw name="Press Keycode" library="AppiumLibrary">
 <arg>23</arg>
 <doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20221005 21:24:24.016" endtime="20221005 21:24:24.073"/>
+<status status="PASS" starttime="20221012 15:27:34.208" endtime="20221012 15:27:34.301"/>
 </kw>
 <kw name="Wait Until Element Is Visible" library="AppiumLibrary">
 <arg>id=com.sentrics.engage360:id/recording_storage_title</arg>
 <doc>Waits until element specified with `locator` is visible.</doc>
-<status status="PASS" starttime="20221005 21:24:24.073" endtime="20221005 21:24:25.814"/>
+<status status="PASS" starttime="20221012 15:27:34.302" endtime="20221012 15:27:36.011"/>
 </kw>
 <kw name="Press Keycode" library="AppiumLibrary">
 <arg>4</arg>
 <doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20221005 21:24:25.814" endtime="20221005 21:24:25.984"/>
+<status status="PASS" starttime="20221012 15:27:36.011" endtime="20221012 15:27:36.155"/>
 </kw>
 <kw name="Wait Until Element Is Visible" library="AppiumLibrary">
 <arg>id=com.sentrics.engage360:id/tvOptionSeriesPriority</arg>
 <doc>Waits until element specified with `locator` is visible.</doc>
-<status status="PASS" starttime="20221005 21:24:25.984" endtime="20221005 21:24:26.844"/>
+<status status="PASS" starttime="20221012 15:27:36.156" endtime="20221012 15:27:36.963"/>
 </kw>
 <kw name="Press Keycode" library="AppiumLibrary">
 <arg>4</arg>
 <doc>Sends a press of keycode to the device.</doc>
-<status status="PASS" starttime="20221005 21:24:26.844" endtime="20221005 21:24:26.935"/>
+<status status="PASS" starttime="20221012 15:27:36.963" endtime="20221012 15:27:37.110"/>
 </kw>
-<status status="PASS" starttime="20221005 21:24:23.307" endtime="20221005 21:24:26.935"/>
+<status status="PASS" starttime="20221012 15:27:33.452" endtime="20221012 15:27:37.111"/>
 </kw>
 <tag>Automation</tag>
-<status status="PASS" starttime="20221005 21:23:57.823" endtime="20221005 21:24:26.935"/>
+<status status="PASS" starttime="20221012 15:27:05.034" endtime="20221012 15:27:37.111"/>
 </test>
 <kw name="Close All Applications" library="AppiumLibrary" type="TEARDOWN">
 <doc>Closes all open applications.</doc>
-<status status="PASS" starttime="20221005 21:24:26.937" endtime="20221005 21:24:27.095"/>
+<status status="PASS" starttime="20221012 15:27:37.112" endtime="20221012 15:27:37.244"/>
 </kw>
-<status status="PASS" starttime="20221005 21:23:42.631" endtime="20221005 21:24:27.095"/>
+<status status="PASS" starttime="20221012 15:26:49.865" endtime="20221012 15:27:37.244"/>
 </suite>
 <statistics>
 <total>
@@ -211,7 +211,7 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 <stat pass="1" fail="0" skip="0">Automation</stat>
 </tag>
 <suite>
-<stat pass="1" fail="0" skip="0" id="s1" name="Window DVR">Window DVR</stat>
+<stat pass="1" fail="0" skip="0" id="s1" name="NGG-TC-66-70 DVR">NGG-TC-66-70 DVR</stat>
 </suite>
 </statistics>
 <errors>

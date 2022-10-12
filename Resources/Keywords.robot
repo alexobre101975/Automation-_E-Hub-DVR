@@ -23,36 +23,36 @@ Open App
   ...   activateName=${Activity_NAME}
   ...   packageName=${PACKAGE_NAME}
 
- # NGG-TC-122
-Enter Window DVR
+# NGG-TC-70
+Home DVR
         Press KeyCode           22
         Press KeyCode           22
         Press Keycode           23
         Wait Until Element Is Visible           id=com.sentrics.engage360:id/tvFilterSeated
-# NGG-TC-123
-Enter Window See All Recording
+# NGG-TC-69
+Enter See All Recording Section DVR
         Press Keycode           23
         Wait Until Element Is Visible           id=com.sentrics.engage360:id/tvSorting
         Press Keycode           4
         Wait Until Element Is Visible           id=com.sentrics.engage360:id/tvFilterSeated
-# NGG-TC-124
-Enter Window Recording Schedule
+# NGG-TC-68
+Enter Recording Schedule Section DVR
         Press Keycode           22
         Wait Until Element Is Visible           id=com.sentrics.engage360:id/tvOptionRecordingSchedule
         Press Keycode           23
         Wait Until Element Is Visible           id=com.sentrics.engage360:id/recording_schedule_calendar_title
         Press Keycode           4
         Wait Until Element Is Visible           id=com.sentrics.engage360:id/tvOptionRecordingSchedule
-    # NGG-TC-125
-Enter Window Recording Priority
+# NGG-TC-67
+Enter Recording Priority Section DVR
         Press Keycode           22
         Wait Until Element Is Visible           id=com.sentrics.engage360:id/tvOptionSeriesPriority
         Press Keycode           23
         Wait Until Element Is Visible           id=com.sentrics.engage360:id/series_priority_title
         Press Keycode           4
         Wait Until Element Is Visible           id=com.sentrics.engage360:id/tvOptionSeriesPriority
-# NGG-TC-126
-Enter Window DVR Storage
+# NGG-TC-66
+Enter DVR Storage Section DVR
          Press Keycode           22
         Wait Until Element Is Visible           id=com.sentrics.engage360:id/tvOptionDVRStorage
         Press Keycode           23
